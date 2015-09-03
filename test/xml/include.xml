@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://aue.chn.hp.com/schema/eos/v1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://aue.chn.hp.com/schema/eos/v1 http://eos.dev.hpeos.com/schema/manifest.xsd">
+
+	<layout>
+		<!-- footer -->
+		<view height="46" margin="auto 0 0 0" backgroundImage="images/footer.png" backgroundScale="fill">
+			<hbox backgroundImage="images/footer-pattern-X2.png"
+				backgroundScale="repeat">
+				<view width="81">
+					<image src="images/back.png" width="27" height="27" scale="fill"
+						align="center" margin="9 auto 9 26" />
+					<image src="images/footer-line.png" width="2" scale="fill"
+						margin="0 0 0 auto" />
+					<button id="backbtn" onclick="goBack()" showsTouchWhenHighlighted="true" />
+				</view>
+				<view />
+				<view width="81">
+					<image src="images/footer-line.png" width="2" scale="fill"
+						margin="0 auto 0 0" />
+					<button id="historyBtn" showsTouchWhenHighlighted="true" />
+				</view>
+			</hbox>
+		</view>
+
+	</layout>
+</manifest>
+

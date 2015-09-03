@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://aue.chn.hp.com/schema/eos/v1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://aue.chn.hp.com/schema/eos/v1 http://eos.dev.hpeos.com/schema/manifest.xsd">
+	<page id="messageList"> 
+		<scripts>
+			<script src="lua/controller/messageListController.lua" />
+		</scripts>
+		<layout >
+			<include path="include.xml"/>
+		</layout>
+	</page>
+</manifest>
+

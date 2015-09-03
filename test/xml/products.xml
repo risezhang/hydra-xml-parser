@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://aue.chn.hp.com/schema/eos/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://aue.chn.hp.com/schema/eos/v1 http://eos.dev.hpeos.com/schema/manifest.xsd">
+  <page id="products">
+    <scripts>
+      <script src="lua/controller/productController.lua" />
+      <script src="lua/common/apiEventHandler.lua"/>
+    </scripts>
+    <layout backgroundColor="blue">    
+      <view margin="118 0 90 0">
+        <list id="productList">
+            <template groupBy="category">
+              <body height="56" backgroundColor="white">
+                <label data="name"/>
+              </body>
+            </template>
+        </list>
+      </view>
+
+     
+    </layout>
+  </page>
+</manifest>
