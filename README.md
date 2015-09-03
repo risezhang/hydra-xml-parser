@@ -24,7 +24,7 @@ While most kind of nodes are supported, such as include, view, hbox, label, imag
 
 ## History
 
-### v0.1 09.03.2015
+### v0.1 09.03 2015
 + The first usable version
 
 License
