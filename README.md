@@ -1,6 +1,6 @@
 # Hydra xml parser
 
-HXP is a Hydry layout parser which is written in pure Lua.
+HXP is a layout parser for the HP Hydra framework which is written in pure Lua.
 
 Usage (main.lua):
 
